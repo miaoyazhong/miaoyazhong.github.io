@@ -1,6 +1,6 @@
 // SplashScreen.js
 import React, { useEffect, useState } from "react";
-import nyanCatGif from "./assets/images/nyanCat.gif"; // Adjust path if needed
+// import nyanCatGif from "./assets/images/nyanCat.gif"; // Adjust path if needed
 
 const SplashScreen = ({ duration, onComplete }) => {
   const [visible, setVisible] = useState(true);
@@ -29,7 +29,7 @@ const SplashScreen = ({ duration, onComplete }) => {
       zIndex: 9999
     }}>
       <img
-        src={nyanCatGif}
+        src={`${process.env.PUBLIC_URL}/assets/images/nyanCat.gif`}
         alt="Nyan Cat Animation"
         style={{
           width: "1500px",                  // Initial size

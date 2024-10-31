@@ -13,7 +13,7 @@ import {
   resumeSection,
   bigProjects
 } from "../../portfolio";
-import nyanCatGif from "../../assets/images/nyanCat.gif"; // Import the GIF file here
+// import nyanCatGif from "../../assets/images/nyanCat.gif"; // Import the GIF file here
 
 function Header() {
   const { isDark } = useContext(StyleContext);
@@ -33,7 +33,7 @@ function Header() {
           {/* <span className="grey-color"> &lt;</span> */}
           {/* Replace username with the GIF */}
           <img 
-            src={nyanCatGif} 
+            src={`${process.env.PUBLIC_URL}/assets/images/nyanCat.gif`}
             alt="Nyan Cat Animation" 
             style={{ width: "250px", height: "auto", verticalAlign: "middle" }}
           />

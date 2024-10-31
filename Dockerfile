@@ -24,7 +24,6 @@ RUN npm audit fix
 
 # Bundle app source
 COPY . /app
-RUN npm run build
 
 # Make port 3000 available to the world outside this container
 EXPOSE 3000
