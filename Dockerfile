@@ -16,6 +16,8 @@ RUN apk add --no-cache git
 # Install any needed packages
 RUN npm install
 
+# RUN npm run format
+
 # Audit fix npm packages
 RUN npm audit fix
 
