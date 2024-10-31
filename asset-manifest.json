@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.04e07605.css",
-    "main.js": "/static/js/main.4b873c43.js",
+    "main.js": "/static/js/main.ea2dcb54.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -14,7 +14,6 @@
     "static/media/goprogram.jpeg": "/static/media/goprogram.41825bd8547fb229d24e.jpeg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/TCTMLogo.jpg": "/static/media/TCTMLogo.8ad3424192ec3b7fabde.jpg",
-    "static/media/nyanCat.gif": "/static/media/nyanCat.af9a7a299b085d25970f.gif",
     "static/media/uwmadison_logo.png": "/static/media/uwmadison_logo.6bbfc33c18ade1a077a7.png",
     "static/media/bdml.png": "/static/media/bdml.5fdc87c76bfdb74c392b.png",
     "static/media/quarrylaneLogo.png": "/static/media/quarrylaneLogo.6e5488ab82ce653f4662.png",
@@ -27,7 +26,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.04e07605.css.map": "/static/css/main.04e07605.css.map",
-    "main.4b873c43.js.map": "/static/js/main.4b873c43.js.map",
+    "main.ea2dcb54.js.map": "/static/js/main.ea2dcb54.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -35,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.04e07605.css",
-    "static/js/main.4b873c43.js"
+    "static/js/main.ea2dcb54.js"
   ]
 }
