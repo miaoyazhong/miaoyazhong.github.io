@@ -211,9 +211,9 @@ const workExperiences = {
       ]
     },
     {
-      role: "Teacher(Lego Construction & robotic programming)",
+      role: "Teacher(Lego Construction & Robotic Programming)",
       company: "TCTM Kids IT Education Inc.",
-      companylogo: require("./assets/images/TCTMLogo.jpg"),
+      companylogo: require("./assets/images/TCTMLogo.png"),
       date: "Feb 2021 – Jul 2021",
       desc: "Teach the lessons of Lego construction and robotic programming with Scratch, Lego Mindstorms, or Lego WeDo 2.0 in grade Pre-5",
       descBullets: [
