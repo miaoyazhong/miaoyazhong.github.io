@@ -1,22 +1,21 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
+  greeting,
   workExperiences,
   skillsSection,
   openSource,
   blogSection,
   talkSection,
   achievementSection,
-  resumeSection,
-  bigProjects
+  resumeSection
 } from "../../portfolio";
-import nyanCatGif from "../../assets/images/nyanCat.gif"; // Import the GIF file here
 
 function Header() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -24,26 +23,20 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
-  const viewBigProjects = bigProjects.display;
 
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          {/* <span className="grey-color"> &lt;</span> */}
-          {/* Replace username with the GIF */}
-          <img 
-            src={nyanCatGif} 
-            alt="Nyan Cat Animation" 
-            style={{ width: "250px", height: "auto", verticalAlign: "middle" }}
-          />
-          {/* <span className="grey-color">/&gt;</span> */}
+          <span className="grey-color"> &lt;</span>
+          <span className="logo-name">{greeting.username}</span>
+          <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{ color: "white" }}
+          style={{color: "white"}}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
@@ -66,11 +59,6 @@ function Header() {
           {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
-            </li>
-          )}
-          {viewBigProjects && (
-            <li>
-              <a href="#projects">Projects</a>
             </li>
           )}
           {viewBlog && (
@@ -102,5 +90,4 @@ function Header() {
     </Headroom>
   );
 }
-
 export default Header;
