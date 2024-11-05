@@ -250,10 +250,40 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+    // {
+    //   image: require("./assets/images/bdml.png"),
+    //   projectName: "Tactiel Sensing for Underwater Robotics",
+    //   projectDesc: "Design and fabricate the tactile sensor for OceanOneK, a humanoid robot developed by Stanford University.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "http://bdml.stanford.edu/Main/MiaoyaSummerJournal"
+    //     }
+    //   ]
+    // }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+const researchSection = {
+  title: "Research",
+  subtitle: "SOME RESEARCH THAT I HAVE WORKED ON",
+  projects: [
+    {
+      image: require("./assets/images/SRCLogo.png"),
+      projectName: "Whisker-inspired Tactile Sensor for Underwater Robotics",
+      projectDesc: "Build the whisker-inspired tactile sensors for OceanOneK, a humanoid robot developed by Stanford University.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sites.google.com/stanford.edu/whiskertactile/home"
+        }
+      ]
+    },
     {
       image: require("./assets/images/bdml.png"),
-      projectName: "Tactiel Senseing for Underwater Robotics",
-      projectDesc: "Design and fabricate the tactile sensor for OceanOneK, a humanoid robot developed by Stanford University.",
+      projectName: "Tactile Sensing for OceanOneK Hand",
+      projectDesc: "Design and fabricate the tactile sensor for the hand of OceanOneK",
       footerLink: [
         {
           name: "Visit Website",
@@ -262,9 +292,9 @@ const bigProjects = {
       ]
     }
   ],
+
   display: true // Set false to hide this section, defaults to true
 };
-
 // Achievement Section
 // Include certificates, talks etc
 
@@ -419,6 +449,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  researchSection,
   achievementSection,
   blogSection,
   talkSection,
