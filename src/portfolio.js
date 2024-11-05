@@ -130,7 +130,7 @@ const educationInfo = {
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Computer Science Certificate",
       duration: "Sept 2022 - Present",
-      desc: "Grade: 4.08/4.0",
+      desc: "Grade: 4.12/4.0",
       // desc2: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Learn the essential elements of computing theory including logic, proof techniques, combinatorics, algorithm analysis, discrete data models (sets, relations, trees), and finite automata.",
         "Gain an understanding of the programming techniques and tools necessary for software engineering, database management, and website development.",
@@ -270,14 +270,25 @@ const researchSection = {
   subtitle: "SOME RESEARCH THAT I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/SRCLogo.png"),
+      image: require("./assets/images/bdml.png"),
+      image2: require("./assets/images/SRCLogo.png"),
+      image3: require("./assets/images/SFChronicleLogo.jpg"),
       projectName: "Whisker-inspired Tactile Sensor for Underwater Robotics",
       projectDesc: "Build the whisker-inspired tactile sensors for OceanOneK, a humanoid robot developed by Stanford University.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Project Website",
           url: "https://sites.google.com/stanford.edu/whiskertactile/home"
+        },
+        {
+          name: "SRC Launch Demo",
+          url: "https://src.stanford.edu/demo/underwater-whisker-sensing"
+        },
+        {
+          name: "Media Coverage",
+          url: "https://www.sfchronicle.com/tech/article/stanford-robotics-lab-home-helpers-19869354.php"
         }
+        
       ]
     },
     {
@@ -286,11 +297,22 @@ const researchSection = {
       projectDesc: "Design and fabricate the tactile sensor for the hand of OceanOneK",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Project Website",
           url: "http://bdml.stanford.edu/Main/MiaoyaSummerJournal"
         }
       ]
-    }
+    },
+    // {
+    //   image: require("./assets/images/bdml.png"),
+    //   projectName: "Tactile Sensing for OceanOneK Hand",
+    //   projectDesc: "Design and fabricate the tactile sensor for the hand of OceanOneK",
+    //   footerLink: [
+    //     {
+    //       name: "Project Website",
+    //       url: "http://bdml.stanford.edu/Main/MiaoyaSummerJournal"
+    //     }
+    //   ]
+    // }
   ],
 
   display: true // Set false to hide this section, defaults to true

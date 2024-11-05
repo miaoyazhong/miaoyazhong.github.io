@@ -13,12 +13,16 @@ export default function Greeting() {
 
   // Array of image sources
   const images = [
+    require("../../assets/images/gallary9.jpg"),
     require("../../assets/images/profile.jpeg"),
     require("../../assets/images/gallary1.jpg"),
     require("../../assets/images/gallary2.jpg"),
     require("../../assets/images/gallary3.jpg"),
     require("../../assets/images/gallary4.jpg"),
     require("../../assets/images/gallary5.jpg"),
+    require("../../assets/images/gallary6.jpg"),
+    require("../../assets/images/gallary7.jpg"),
+    require("../../assets/images/gallary8.jpg"),
   ];
 
   // Function to go to the next image

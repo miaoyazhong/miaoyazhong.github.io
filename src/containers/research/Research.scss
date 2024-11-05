@@ -91,3 +91,42 @@
     text-align: center;
   }
 }
+
+.project-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; // Adjust as needed for spacing
+}
+
+.project-image {
+  width: 250px; // Fixed width for square shape
+  height: 250px; // Fixed height for square shape
+  overflow: hidden;
+  border-radius: 8px; // Optional: rounded corners for styling
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); // Optional: shadow for a polished look
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card-image,
+.side-image {
+  width: 100%; // Make the image fit the container width
+  height: 100%; // Make the image fit the container height to maintain square shape
+  object-fit: cover; // Ensures the image covers the entire square without distortion
+  opacity: 0.9; // Slightly faded for visual distinction
+}
+
+.project-image:hover .card-image,
+.project-image:hover .side-image {
+  opacity: 1;
+  transform: scale(1.05); // Slight zoom effect on hover
+}
+
+.project-image-left {
+  margin-right: 10px; // Space to the right of the left image
+}
+
+.project-image-right {
+  margin-left: 10px; // Space to the left of the right image
+}

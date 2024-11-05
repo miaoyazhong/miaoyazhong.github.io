@@ -180,3 +180,40 @@
     font-size: 12px;
   }
 }
+
+
+@keyframes crayonBlink {
+  0%, 100% {
+    text-shadow: 
+      0 0 6px #fffacd,       // Strong yellowish-white glow at the center
+      0 0 12px #ffd700,      // Bright yellow closer to the center
+      0 0 24px #f0e68c,      // Dimmer yellow further out
+      0 0 36px #ff6347;      // Orange glow farther out
+      // 0 0 48px #ff4500;      // Red glow at the outermost layer
+    color: #ffd700;
+  }
+  50% {
+    text-shadow: 
+      0 0 6px #ffdab9,       // Peach color at the center
+      0 0 12px #ff6347,      // Bright orange closer to the center
+      0 0 24px #ff4500,      // Reddish-orange further out
+      0 0 36px #cd5c5c;      // Soft red glow farther out
+      // 0 0 48px #8b0000;      // Dark red at the outermost layer
+    color: #ff4500;
+  }
+}
+
+.research-tab, .projects-tab {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffd700; // Base color of the text
+  text-decoration: none;
+  animation: crayonBlink 2.5s infinite alternate;
+  padding: 0.2em 0.4em;
+  transition: transform 0.2s ease-in-out;
+  display: inline-block;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

@@ -9,14 +9,17 @@ export default function Research() {
         if (!url) {
             return;
         }
-        var win = window.open(url, "_blank");
-        win.focus();
+        const win = window.open(url, "_blank");
+        if (win) {
+            win.focus();
+        }
     }
 
     const { isDark } = useContext(StyleContext);
     if (!researchSection.display) {
         return null;
     }
+    
     return (
         <Fade bottom duration={1000} distance="20px">
             <div className="main" id="research">
@@ -33,24 +36,44 @@ export default function Research() {
                     </p>
 
                     <div className="projects-container">
-                        {researchSection.projects.map((project, i) => {
-                            return (
-                                <div
-                                    key={i}
-                                    className={
-                                        isDark
-                                            ? "dark-mode project-card project-card-dark"
-                                            : "project-card project-card-light"
-                                    }
-                                >
-                                    {project.image ? (
+                        {researchSection.projects.map((project, i) => (
+                            <div
+                                key={i}
+                                className={
+                                    isDark
+                                        ? "dark-mode project-card project-card-dark"
+                                        : "project-card project-card-light"
+                                }
+                            >
+                                <div className="project-images">
+                                    {/* Left Image */}
+                                    {project.image2 && (
                                         <div
-                                            className="project-image"
+                                            className="project-image project-image-left"
+                                            onClick={() =>
+                                                project.footerLink && project.footerLink[1]
+                                                    ? openUrlInNewTab(project.footerLink[1].url)
+                                                    : null
+                                            }
+                                            style={{ cursor: "pointer" }}
+                                        >
+                                            <img
+                                                src={project.image2}
+                                                alt={`${project.projectName} - Side Image Left`}
+                                                className="side-image"
+                                            />
+                                        </div>
+                                    )}
+                                    
+                                    {/* Center Image */}
+                                    {project.image && (
+                                        <div
+                                            className="project-image project-image-center"
                                             onClick={() =>
                                                 project.footerLink && project.footerLink[0]
                                                     ? openUrlInNewTab(project.footerLink[0].url)
                                                     : null
-                                            } // Use the first footer link URL
+                                            }
                                             style={{ cursor: "pointer" }}
                                         >
                                             <img
@@ -59,41 +82,51 @@ export default function Research() {
                                                 className="card-image"
                                             />
                                         </div>
-                                    ) : null}
-                                    <div className="project-detail">
-                                        <h5
-                                            className={isDark ? "dark-mode card-title" : "card-title"}
-                                        >
-                                            {project.projectName}
-                                        </h5>
-                                        <p
-                                            className={
-                                                isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                                    )}
+
+                                    {/* Right Image */}
+                                    {project.image3 && (
+                                        <div
+                                            className="project-image project-image-right"
+                                            onClick={() =>
+                                                project.footerLink && project.footerLink[2]
+                                                    ? openUrlInNewTab(project.footerLink[2].url)
+                                                    : null
                                             }
+                                            style={{ cursor: "pointer" }}
                                         >
-                                            {project.projectDesc}
-                                        </p>
-                                        {project.footerLink ? (
-                                            <div className="project-card-footer">
-                                                {project.footerLink.map((link, i) => {
-                                                    return (
-                                                        <span
-                                                            key={i}
-                                                            className={
-                                                                isDark ? "dark-mode project-tag" : "project-tag"
-                                                            }
-                                                            onClick={() => openUrlInNewTab(link.url)}
-                                                        >
-                                                            {link.name}
-                                                        </span>
-                                                    );
-                                                })}
-                                            </div>
-                                        ) : null}
-                                    </div>
+                                            <img
+                                                src={project.image3}
+                                                alt={`${project.projectName} - Side Image Right`}
+                                                className="side-image"
+                                            />
+                                        </div>
+                                    )}
                                 </div>
-                            );
-                        })}
+
+                                <div className="project-detail">
+                                    <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
+                                        {project.projectName}
+                                    </h5>
+                                    <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
+                                        {project.projectDesc}
+                                    </p>
+                                    {project.footerLink && (
+                                        <div className="project-card-footer">
+                                            {project.footerLink.map((link, index) => (
+                                                <span
+                                                    key={index}
+                                                    className={isDark ? "dark-mode project-tag" : "project-tag"}
+                                                    onClick={() => openUrlInNewTab(link.url)}
+                                                >
+                                                    {link.name}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>

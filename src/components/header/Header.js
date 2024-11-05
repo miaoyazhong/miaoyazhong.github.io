@@ -67,7 +67,7 @@ function Header() {
           )}
           {viewResearch && (
             <li>
-              <a href="#research">Research</a>
+              <a href="#research" className="research-tab">Research</a>
             </li>
           )}
           {viewAchievement && (
@@ -77,7 +77,7 @@ function Header() {
           )}
           {viewBigProjects && (
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects" className="projects-tab">Projects</a>
             </li>
           )}
           {viewBlog && (
@@ -90,11 +90,11 @@ function Header() {
               <a href="#talks">Talks</a>
             </li>
           )}
-          {viewResume && (
+          {/* {viewResume && (
             <li>
               <a href="#resume">Resume</a>
             </li>
-          )}
+          )} */}
           <li>
             <a href="#contact">Contact Me</a>
           </li>
