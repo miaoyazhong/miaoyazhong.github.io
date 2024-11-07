@@ -201,7 +201,7 @@ const workExperiences = {
     },
     {
       role: "Teacher",
-      company: "Stanford Madera Grove Children's Center",
+      company: "Stanford Madera Grove\nChildren's Center",
       companylogo: require("./assets/images/ICRILogo.png"),
       date: "June 2022 – June 2023",
       desc: "Utilize classroom materials to implement activities (including STEAM) and promote an environment conducive to age-appropriate levels of development, interests, and special needs of the children.",
