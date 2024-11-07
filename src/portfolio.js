@@ -128,7 +128,7 @@ const educationInfo = {
     {
       schoolName: "Stanford Center for Professional Development",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Computer Science Certificate",
+      subHeader: "Graduate Certificate: Introductory Programming and Foundations in Computer Science",
       duration: "Sept 2022 - Present",
       desc: "Grade: 4.12/4.0",
       // desc2: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -139,7 +139,7 @@ const educationInfo = {
     {
       schoolName: "Harvard University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Education in Learning Design and Technology",
+      subHeader: "Master of Education in Learning Design, Innovation, and Technology",
       duration: "Sept 2021 - May 2022",
       desc: "Grade: 4.0/4.0",
       // descBullets: [
