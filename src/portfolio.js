@@ -132,9 +132,9 @@ const educationInfo = {
       duration: "Sept 2022 - Present",
       desc: "Grade: 4.12/4.0",
       // desc2: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Learn the essential elements of computing theory including logic, proof techniques, combinatorics, algorithm analysis, discrete data models (sets, relations, trees), and finite automata.",
-        "Gain an understanding of the programming techniques and tools necessary for software engineering, database management, and website development.",
-      ]
+      // descBullets: ["Learn the essential elements of computing theory including logic, proof techniques, combinatorics, algorithm analysis, discrete data models (sets, relations, trees), and finite automata.",
+      //   "Gain an understanding of the programming techniques and tools necessary for software engineering, database management, and website development.",
+      // ]
     },
     {
       schoolName: "Harvard University",
