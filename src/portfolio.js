@@ -219,7 +219,7 @@ const workExperiences = {
       descBullets: [
         "Taught Lego construction and robotic programming with Scratch, Lego Mindstorms, Lego WeDo 2.0, and Python in Grade Pre-8",
         "Worked on developing the product exhibitions and activity design, assisted in training new teachers",
-        "Total sales of incumbency: $100,000."
+        "Total sales of incumbency: $100,000"
       ]
     }
   ]
@@ -242,9 +242,7 @@ const bigProjects = {
     {
       image: require("./assets/images/goprogram.jpeg"),
       projectName: "Go Programm: Free Curriculum for Scratch Programming",
-      projectDesc: "Discover a diverse collection of open-source Scratch projects designed for self-guided learning. These projects collectively feature interactive storybooks and references with a cross-curricular design incorporating Art, Math, Literacy, and Computer Science. Engage with different sections to experience varied learning pathways, creating fun and meaningful learning experiences.
-
-",
+      projectDesc: "Discover a diverse collection of open-source Scratch projects designed for self-guided learning. These projects collectively feature interactive storybooks and references with a cross-curricular design incorporating Art, Math, Literacy, and Computer Science. Engage with different sections to experience varied learning pathways, creating fun and meaningful learning experiences.",
       footerLink: [
         {
           name: "Visit Website",
