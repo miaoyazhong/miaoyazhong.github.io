@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Miaoya Zhong",
-  title: "Hi all, I'm Miaoya",
+  title: "Hi, I'm Miaoya",
   subTitle: emoji(
-    "A passionate STEM Teacher and Learning Designer with a background in Computer Science and Education. I am a lifelong learner who loves to explore new technologies and share my knowledge with others."
+    "I am a passionate STEAM teacher and learning designer with an enthusiastic interest in computer science and education. As a lifelong learner, I love exploring new technologies and sharing to inspire next-generation learners."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1vqqegNsVOVm1ucGqGB9teWjW5DoNGUyb/view?usp=sharing", // Set to empty to hide the button
@@ -193,10 +193,10 @@ const workExperiences = {
       company: "The Quarry Lane School",
       companylogo: require("./assets/images/quarrylaneLogo.png"),
       date: "Aug 2023 – Present",
-      desc: "Teach AP CSP and middle school computer science.",
+      desc: "Teach AP CSP and middle school computer science",
       descBullets: [
-        "Design and develop individualized AP CSP and middle school computer science curriculum for Grade 7-12 students. ",
-        "Host homeroom and club for middle school students."
+        "Design and develop individualized AP CSP and middle school computer science curriculum for Grade 7-12 students, fostering computational thinking, interest in Computer Science, and a strong foundation in programming.",
+        "Lead Game Design club， enhancing student engagement and promoting a collaborative learning community."
       ]
     },
     {
@@ -204,10 +204,10 @@ const workExperiences = {
       company: "Stanford Madera Grove\nChildren's Center",
       companylogo: require("./assets/images/ICRILogo.png"),
       date: "June 2022 – June 2023",
-      desc: "Utilize classroom materials to implement activities (including STEAM) and promote an environment conducive to age-appropriate levels of development, interests, and special needs of the children.",
+      desc: "Implement Various activities and documentation with Reggio Emilia Approach",
       descBullets: [
-        "Assist in documentation of student work such as portfolios, and wall displays.",
-        "Maintain an open line of communication with parents, provide appropriate information, and share relevant feedback from parents with the teacher team."
+        "Utilized classroom materials to implement STEAM activities and promote an environment conducive to age-appropriate levels of development, interests, and special needs of the children.",
+        "Created documentation of student work such as portfolios and wall display."
       ]
     },
     {
@@ -215,9 +215,10 @@ const workExperiences = {
       company: "TCTM Kids IT Education Inc.",
       companylogo: require("./assets/images/TCTMLogo.png"),
       date: "Feb 2021 – Jul 2021",
-      desc: "Teach the lessons of Lego construction and robotic programming with Scratch, Lego Mindstorms, or Lego WeDo 2.0 in grade Pre-5",
+      desc: "Teach Lego construction and robotic programming from Pre to 8",
       descBullets: [
-        "Worked on developing the product exhibitions and activity design, assisting new teachers training",
+        "Taught Lego construction and robotic programming with Scratch, Lego Mindstorms, Lego WeDo 2.0, and Python in Grade Pre-8",
+        "Worked on developing the product exhibitions and activity design, assisted in training new teachers",
         "Total sales of incumbency: $100,000"
       ]
     }
@@ -240,8 +241,10 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/goprogram.jpeg"),
-      projectName: "Free Curriculum for Scratch Programming",
-      projectDesc: "Create a collection of open-source Scratch projects for self-guided learning, aimed at elementary students or anyone interested in learning Scratch basics.",
+      projectName: "Go Programm: Free Curriculum for Scratch Programming",
+      projectDesc: "Discover a diverse collection of open-source Scratch projects designed for self-guided learning. These projects collectively feature interactive storybooks and references with a cross-curricular design incorporating Art, Math, Literacy, and Computer Science. Engage with different sections to experience varied learning pathways, creating fun and meaningful learning experiences.
+
+",
       footerLink: [
         {
           name: "Visit Website",
