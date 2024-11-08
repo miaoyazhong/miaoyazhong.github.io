@@ -219,7 +219,7 @@ const workExperiences = {
       descBullets: [
         "Taught Lego construction and robotic programming with Scratch, Lego Mindstorms, Lego WeDo 2.0, and Python in Grade Pre-8",
         "Worked on developing the product exhibitions and activity design, assisted in training new teachers",
-        "Total sales of incumbency: $100,000"
+        "Total sales of incumbency: $100,000."
       ]
     }
   ]
