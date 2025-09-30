@@ -130,7 +130,7 @@ const educationInfo = {
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "Expected 2027",
-      desc: "Grade: 4.12/4.0",
+      desc: "GPA: 4.12/4.0",
       // desc2: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Learn the essential elements of computing theory including logic, proof techniques, combinatorics, algorithm analysis, discrete data models (sets, relations, trees), and finite automata.",
       //   "Gain an understanding of the programming techniques and tools necessary for software engineering, database management, and website development.",
@@ -141,7 +141,7 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Education in Learning Design, Innovation, and Technology",
       duration: "Sept 2021 - May 2022",
-      desc: "Grade: 4.0/4.0",
+      desc: "GPA: 4.0/4.0",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -152,7 +152,7 @@ const educationInfo = {
       logo: require("./assets/images/uwmadison_logo.png"),
       subHeader: "Bachelor of Science in Education",
       duration: "Sept 2017 - Dec 2020",
-      desc: "Grade: 3.93/4.0 (Graduate with distinction)",
+      desc: "GPA: 3.93/4.0 (Graduate with distinction)",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
