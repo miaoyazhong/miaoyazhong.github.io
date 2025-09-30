@@ -26,7 +26,7 @@ const greeting = {
     "I am a passionate STEAM teacher and learning designer with an enthusiastic interest in computer science and education. As a lifelong learner, I love exploring new technologies and sharing to inspire next-generation learners."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1r-j8FRuq_jIaoQEtjl9HCJP17uJ2L9t-/view?usp=sharing", // Set to empty to hide the button
+    " ", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
