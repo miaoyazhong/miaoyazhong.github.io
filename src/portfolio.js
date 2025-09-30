@@ -26,7 +26,7 @@ const greeting = {
     "I am a passionate STEAM teacher and learning designer with an enthusiastic interest in computer science and education. As a lifelong learner, I love exploring new technologies and sharing to inspire next-generation learners."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1vqqegNsVOVm1ucGqGB9teWjW5DoNGUyb/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1r-j8FRuq_jIaoQEtjl9HCJP17uJ2L9t-/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -126,10 +126,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Stanford Center for Professional Development",
+      schoolName: "Stanford University",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Graduate Certificate: Introductory Programming and Foundations in Computer Science",
-      duration: "Sept 2022 - Present",
+      subHeader: "Master of Science in Computer Science",
+      duration: "Expected 2027",
       desc: "Grade: 4.12/4.0",
       // desc2: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Learn the essential elements of computing theory including logic, proof techniques, combinatorics, algorithm analysis, discrete data models (sets, relations, trees), and finite automata.",
