@@ -35,7 +35,7 @@ function Header() {
           {/* <span className="grey-color"> &lt;</span> */}
           {/* Replace username with the GIF */}
           <img 
-            src={"/nyanCat.gif"}
+            src={`${process.env.PUBLIC_URL}/nyan_cat.gif`}
             alt="Nyan Cat Animation" 
             style={{ width: "250px", height: "auto", verticalAlign: "middle" }}
           />

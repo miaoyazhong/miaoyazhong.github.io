@@ -29,7 +29,7 @@ const SplashScreen = ({ duration, onComplete }) => {
       zIndex: 9999
     }}>
       <img
-        src={"/nyanCat.gif"}
+        src={`${process.env.PUBLIC_URL}/nyan_cat.gif`}
         alt="Nyan Cat Animation"
         style={{
           width: "1500px",                  // Initial size
