@@ -66,7 +66,8 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <a
                     href={`${process.env.PUBLIC_URL}/resume.pdf`}
-                    download="Resume.pdf"
+                    target="_blank"
+                    rel="noreferrer"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
