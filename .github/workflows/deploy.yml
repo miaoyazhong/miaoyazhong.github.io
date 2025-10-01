@@ -15,7 +15,7 @@ permissions:
 env:
   # Keep these non-secret values here; adjust to taste.
   GITHUB_USERNAME: ${{ github.repository_owner }}
-  USE_GITHUB_DATA: "true"
+  USE_GITHUB_DATA: "false"
   MEDIUM_USERNAME: ""         # set if you want Medium blogs
   CI: false                   # CRA sometimes over-optimizes with CI=true
 
