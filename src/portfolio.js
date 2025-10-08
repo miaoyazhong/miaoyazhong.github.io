@@ -23,7 +23,7 @@ const greeting = {
   username: "Miaoya Zhong",
   title: "Hi, I'm Miaoya",
   subTitle: emoji(
-    "I am a passionate STEAM teacher and learning designer with an enthusiastic interest in computer science and education. As a lifelong learner, I love exploring new technologies and sharing to inspire next-generation learners."
+    "I’m currently a Computer Science master’s student at Stanford. Before Stanford, I worked as a STEM teacher and loved inspiring curiosity through hands-on learning. Now, I’m excited to bring that creative energy to computer science and am seeking a summer internship to grow and contribute to real-world projects."
   ),
   resumeLink:
     " ", // Set to empty to hide the button
